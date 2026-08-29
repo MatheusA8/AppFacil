@@ -10,7 +10,6 @@ body {
     color: #333333;
 }
 
-/* 1. Hero / Capa com Parallax */
 .hero {
     position: relative;
     height: 100vh;
@@ -25,7 +24,6 @@ body {
     text-align: center;
 }
 
-/* Camada semitransparente sobre a imagem de fundo */
 .hero::before {
     content: "";
     position: absolute;
